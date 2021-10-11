@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+
+*{
+    box-sizing: border-box;
+    outline: 0;
+    font-family: 'Open sans';
+}
+
+body{
+    margin: 0;
+    padding: 0 20%;
+    background: linear-gradient(to bottom, rgb(243, 104, 24) , rgb(255, 231, 204) 99% ) no-repeat;
+    font-size: 1.3em;
+    line-height: 1.5em;
+    height: 100vh;
+}
+
+.container {
+    margin: 150px auto;
+    background-color: rgb(39, 39, 39);
+    padding: 50px 100px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgb(255, 1, 1);
+}
+
+.container h1{
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 40px;
+    color: rgb(243, 104, 24);
+}
+
+.container p{
+    text-transform: uppercase;
+    text-align: left;
+    font-size: 25px;
+    color: white;
+}
+
+form label{
+    text-transform: uppercase;
+    text-align: left;
+    font-size: 25px;
+    color: white;
+}
+
+form input, form label, form button{
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+form input {
+    font-size: 24px;
+    height: 50px;
+    padding: 0 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 5px white;
+    border: 1px solid rgb(243, 104, 24);
+}
+
+form input:focus {
+    outline: white 1px solid;
+}
+
+form button{
+    border: none;
+    background-color: rgb(243, 104, 24);
+    color: black;
+    font-size: 25px;
+    font-weight: bold;
+    text-transform: uppercase;
+    height: 50px;
+    cursor: pointer;
+    margin-top: 30px;
+    border-radius: 5px;
+}
+
+form button:hover {
+    background-color: rgb(133, 49, 0);
+    color: white;
+}
+
+#resultado p{
+    color: black;
+    font-weight: bold;
+}
+
+.paragrafo-resultado, .bad {
+    padding: 10px 20px;
+    background: rgb(117, 248, 117);
+    border-radius: 5px;
+}
+
+.bad{
+    background-color: rgb(252, 117, 117);
+}
